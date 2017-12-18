@@ -34,7 +34,7 @@ public class Utils {
         if (integers.length == 1) return integers[0];
         if (integers.length == 2) return greatestCommonDivisor(integers[0], integers[1]);
 
-        //TODO beaturify
+        //TODO beatify
         Integer[] newIntegers = new Integer[integers.length - 1];
         for (int i = 0; i < integers.length - 1; i++) {
             if (i == integers.length - 2) newIntegers[i] = greatestCommonDivisor(integers[i], integers[i + 1]);
